@@ -108,19 +108,19 @@ Wazuh successfully generated an alert matching custom rule `100300`.
 
 ### Evidence 1: Custom Wazuh Detection Alert
 
-[INSERT SCREENSHOT 1 HERE – Wazuh alert showing custom rule 100300, level 8 and MITRE T1053.005]
+![Figure 1: Wazuh custom detection alert](https://github.com/user-attachments/assets/92fb3ddd-b29c-4453-9ee8-64143343959e)
 
-*Figure 1: Wazuh successfully triggered the custom scheduled task detection rule.*
+*Figure 1: Wazuh successfully triggered custom rule 100300 at level 8.*
 
 ### Evidence 2: Expanded Event Details
 
-[INSERT SCREENSHOT 2 HERE – Expanded Wazuh alert showing task name, account, LogonTrigger and notepad.exe]
+![Figure 2: Expanded Wazuh event details](https://github.com/user-attachments/assets/158730b0-9581-48ee-a78c-1e3f29e455ab)
 
-*Figure 2: Underlying Windows Security event details used to investigate the scheduled task creation.*
+*Figure 2: Underlying Windows Security event showing the task name, account, logon trigger and executable.*
 
 ### Evidence 3: Custom Detection Rule
 
-[INSERT SCREENSHOT 3 HERE – local_rules.xml showing custom rule 100300]
+![Figure 3: Custom Wazuh rule in local_rules.xml](https://github.com/user-attachments/assets/62514e78-cb78-44b1-8f82-7af47977cb46)
 
 *Figure 3: Custom Wazuh rule identifying scheduled tasks configured with a logon trigger.*
 
